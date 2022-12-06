@@ -1,0 +1,159 @@
+{
+  "editor.wordWrap": "on",
+  "eslint.validate": ["javascript", "javascriptreact", "vue"],
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "trailing-spaces.trimOnSave": false,
+  "files.trimTrailingWhitespace": true,
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "workbench.sideBar.location": "left",
+  "sync.gist": "",
+  "editor.fontSize": 14,
+  "sshfs.configs": [],
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false,
+    "editor.formatOnSave": false,
+    "editor.wordWrap": "on",
+    "editor.renderWhitespace": "all",
+    "editor.acceptSuggestionOnEnter": "off"
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  // "[html]": {
+  //   "editor.formatOnSave": false,
+  //   "editor.defaultFormatter": "vscode.html-language-features"
+  // },
+  "[php]": {},
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[csharp]": {
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "[sql]": {},
+  "files.associations": {
+    "*.sql": "plsql",
+    "*.env.development": "env",
+    "*.env.production": "env",
+    "*.env.development.local": "env",
+    "*.env.production.local": "env",
+    ".env.local": "env",
+    ".env.test": "env"
+  },
+  "[typescriptreact]": {
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.formatOnSave": true,
+    "editor.suggest.insertMode": "replace"
+  },
+  "liveshare.featureSet": "insiders",
+  "highlight-matching-tag.styles": {
+    "opening": {
+      "name": {
+        "underline": "yellow",
+        "highlight": "rgba(247, 243, 3, 0.2)"
+      }
+    },
+    "closing": {
+      "name": {
+        "underline": "yellow",
+        "highlight": "rgba(247, 243, 3, 0.2)"
+      }
+    }
+  },
+  "turboConsoleLog.wrapLogMessage": false,
+  "turboConsoleLog.insertEnclosingFunction": true,
+  "editor.tabSize": 2,
+  "editor.formatOnType": true,
+  "prolog.executablePath": "/usr/local/cellar/swi-prolog/8.2.3/bin/swipl",
+  "mssql.connections": [
+    {
+      "server": "{{put-server-name-here}}",
+      "database": "{{put-database-name-here}}",
+      "user": "{{put-username-here}}",
+      "password": "{{put-password-here}}"
+    }
+  ],
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "auto-close-tag.activationOnLanguage": [
+    "xml",
+    "php",
+    "blade",
+    "ejs",
+    "jinja",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "plaintext",
+    "markdown",
+    "vue",
+    "liquid",
+    "erb",
+    "lang-cfml",
+    "cfml",
+    "HTML (EEx)",
+    "HTML (Eex)",
+    "plist"
+  ],
+  "diffEditor.ignoreTrimWhitespace": false,
+  "git.autofetch": true,
+  "css.lint.unknownAtRules": "ignore",
+  "css.lint.validProperties": ["composes"],
+  "omnisharp.organizeImportsOnFormat": true,
+  "todohighlight.isEnable": true,
+  "vscode-edge-devtools.mirrorEdits": true,
+  "bracketPairColorizer.depreciation-notice": false,
+  "tailwindCSS.emmetCompletions": true,
+  "editor.formatOnPaste": true,
+  "omnisharp.useGlobalMono": "never",
+  "[aspnetcorerazor]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  // temporary fix for v 6.0.200
+  "omnisharp.useModernNet": true,
+  "omnisharp.path": "latest",
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "editor.accessibilitySupport": "off",
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": true,
+    "markdown": false
+  },
+  "excalidraw.theme": "light",
+  "csharp.semanticHighlighting.enabled": false,
+  "workbench.colorTheme": "GitHub Dark Default",
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "editor.codeActionsOnSave": {},
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "window.zoomLevel": 1,
+  "playwright.reuseBrowser": false
+}
